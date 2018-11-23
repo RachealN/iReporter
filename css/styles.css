@@ -1,0 +1,168 @@
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+    width: 96%;
+    height: 80px;
+    text-align: right;
+    border-radius: 10px;
+    padding: 20px 16px;
+    color: white;
+    
+}
+.topnav a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    width: 9%;
+    height: 30%;
+    text-align: initial;
+}
+
+.topnav a:hover {
+    color: white;
+    background-color: purple;
+}
+
+.active {
+    color: white;
+    background-color: purple;
+}
+.report{
+    float: left;
+    padding: 14px 16px;
+    color: white;
+}
+
+.logo{
+    float: left;
+    padding: 14px 16px;
+    border-radius: 25px;
+
+}
+
+.dropbtn {
+    color: white;
+    padding: 30px;
+    font-size: 16px;
+    border: none;
+
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:white;
+    width: 400px;
+    height: 250px;
+    border-radius: 30px;
+    text-align: left;
+    
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 17px;
+}
+.dropdown-content a:hover {
+    background-color: purple;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+    background-color: purple;
+}
+.dropdown:hover .dropbtn {
+    background-color: purple;
+}
+
+.corruption{
+    float: left;
+    padding: 150px 10px;
+    color: white;
+}
+
+
+.sidenav {
+    height: 400px; 
+    width: 160px; 
+    left: 0;
+    background-color: #333; 
+    padding-top: 20px;
+    font-size: 5px;
+    color: white;
+    border-radius: 10px;
+    margin-top: 1px;
+    
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    color: white;
+    display: block;
+}
+
+.sidenav a:hover {
+    color:white;
+    background-color: purple;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+ 
+.ireporter{
+    float: right;
+    margin-left: 20%;
+    margin-top: 0px;
+    font-size: 17px;
+}
+
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    height: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+    
+}
+
+.media{
+   float: right;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+.fa-youtube{
+    background: red;
+    color: white;
+
+}
+.fa-google{
+    background: red;
+    color: white;
+}
