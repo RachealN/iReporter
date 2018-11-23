@@ -2,9 +2,11 @@
     box-sizing: border-box;
     /* background-color: #333; */
     display: block;
-    color: black;
+    color: white;
     /* margin-left: 20px; */
     text-align: initial;
+    font-size: 17px;
+    
 }
 
   input[type=text], input[type=password] {
@@ -44,6 +46,7 @@ input[type=text], input[type=password] {
     margin-left: 20%;
     margin-top: 5%;
     height:40px;
+    font-size: 17px;
     
 
 }
@@ -56,17 +59,16 @@ input[type=text], input[type=password] {
 
 
 .container {
-  /* padding: 50px 50px; */
+  padding: 50px 50px;
   margin-left: 30%;
-  /* background-color: purple; */
-  /* background-image: url("../images/corruption.PNG");
-  background-size: cover; */
+  background-color: #333;
   border-radius: 30px;
-  height: 500%;
-  width: 100%;
+  height: 10%;
+  width: 50%;
 }
 h1{
     margin-left: 15%;
+    font-size: 30px;
 }
 
 @media screen and (max-width: 300px) {
