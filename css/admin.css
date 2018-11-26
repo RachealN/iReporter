@@ -16,9 +16,9 @@ header {
 }
 
 article {
-    float: left;
+    float: none;
     padding: 20px;
-    width: 70%;
+    width: 96%;
     background-color: #f1f1f1;
     height: 500px;
     border-radius: 10px;
