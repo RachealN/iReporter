@@ -176,13 +176,13 @@ input[type=text], select, textarea{
     padding: 20px;
   }
   
-  .col-25 {
+  .columnn {
     float: left;
     width: 25%;
     margin-top: 6px;
   }
   
-  .col-75 {
+  .colummn {
     float: left;
     width: 75%;
     margin-top: 6px;
@@ -194,7 +194,7 @@ input[type=text], select, textarea{
     clear: both;
   }
 @media screen and (max-width: 600px) {
-    .col-25, .col-75, input[type=submit] {
+    .columnn, .colummn, input[type=submit] {
       width: 100%;
       margin-top: 0;
     }

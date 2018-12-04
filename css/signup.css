@@ -1,9 +1,7 @@
 * {
     box-sizing: border-box;
-    /* background-color: #333; */
     display: block;
     color: white;
-    /* margin-left: 20px; */
     text-align: initial;
     font-size: 17px;
     
@@ -30,7 +28,7 @@ hr {
 }
 
 input[type=text], input[type=password] {
-    width: 50%;
+    width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
@@ -41,9 +39,9 @@ input[type=text], input[type=password] {
 .button{
     background-color:purple;
     cursor:pointer;
-    width:20%;
+    width:100%;
     border-radius:5px;
-    margin-left: 20%;
+    margin-left: 1px;
     margin-top: 5%;
     height:40px;
     font-size: 17px;
@@ -69,6 +67,27 @@ input[type=text], input[type=password] {
 h1{
     margin-left: 15%;
     font-size: 30px;
+}
+
+.registerbtn {
+  background-color: purple;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity:1;
+}
+a {
+  color: dodgerblue;
+}
+.containerin{
+  margin-left: 10px;
 }
 
 @media screen and (max-width: 300px) {

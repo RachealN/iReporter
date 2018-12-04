@@ -16,11 +16,9 @@
                 <h1 class="report">i-Reporter</h1>
 
                 <a href="#" >more options</a>        
-                <a href="#" >Preventing corruption</a>
-                <a href="#">Investigating corruption</a>
+                <a href="../Templates/user.html">View record</a>
                 <a href="../Templates/user.html" class="active">Home</a>
-                <!-- <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                  <i class="fa fa-bars"></i> -->
+
                 </a>
               </div>
 
@@ -38,45 +36,59 @@
     <body>
     
             <div class="container">
-                    <form action="action_page.php">
+                    <!-- <form action="action_page.php"> -->
                       <div class="row">
-                        <div class="col-25">
+                        <div class="columnn">
                           <label for="fname">Your Name</label>
                         </div>
-                        <div class="col-75">
+                        <div class="colummn">
                           <input type="text" id="fname" name="firstname" placeholder="">
                         </div>
                       </div>
                       <div class="row">
-                        <div class="col-25">
-                          <label for="lname">Name of your Flag</label>
+                        <div class="columnn">
+                          <label for="fname">Name of your Flag/intervention</label>
                         </div>
-                        <div class="col-75">
-                          <input type="text" id="lname" name="lastname" placeholder="">
+                        <div class="colummn">
+                          <input type="text" id="fname" name="firstname" placeholder="">
                         </div>
                       </div>
                       <div class="row">
-                        <div class="col-25">
-                          <label for="location">location</label>
+                        <div class="columnn">
+                          <label for="fname">Add geolocation</label>
                         </div>
-                        <div class="col-75">
+                        <div class="colummn">
+                          <textarea id="subject" name="subject" placeholder="Lat cordinates" style="height:50px"></textarea>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="columnn">
+                        </div>
+                        <div class="colummn">
+                          <textarea id="subject" name="subject" placeholder="Long cordinates" style="height:50px"></textarea>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="columnn">
+                          <label for="location">select a record category</label>
+                        </div>
+                        <div class="colummn">
                           <select id="location" name="location">
-                            <option value="Entebbe">Entebbe</option>
-                            <option value="Kampala">Kampala</option>
-                            <option value="Mbarara">Mbarara</option>
+                            <option value="Entebbe">Redflag record</option>
+                            <option value="Kampala">Intervention record</option>
                           </select>
                         </div>
                       </div>
                       <div class="row">
-                        <div class="col-25">
+                        <div class="columnn">
                           <label for="subject">What are your reporting about</label>
                         </div>
-                        <div class="col-75">
-                          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                        <div class="colummn">
+                          <textarea id="subject" name="subject" placeholder="Write something.." style="height:100px"></textarea>
                         </div>
                       </div>
                       <div class="row">
-                        <button type="submit" class="button"><a href="../Templates/intervention.html">next</a></button>
+                        <button type="submit" class="button"><a href="#">Post record</a></button>
                         
                         
                        
