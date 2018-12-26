@@ -46,49 +46,10 @@
 
 }
 
-.dropbtn {
-    color: white;
-    padding: 30px;
-    font-size: 16px;
-    border: none;
-
-}
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color:white;
-    width: 400px;
-    height: 250px;
-    border-radius: 30px;
-    text-align: left;
-    
-}
-
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    font-size: 17px;
-}
-.dropdown-content a:hover {
-    background-color: purple;
-}
-.dropdown:hover .dropdown-content {
-    display: block;
-    background-color: purple;
-}
-.dropdown:hover .dropbtn {
-    background-color: purple;
-}
 
 .sidenav {
     height: 400px; 
-    width: 160px;
+    width: 180px;
     background-color: #333; 
     font-size: 5px;
     color: white;
@@ -113,9 +74,9 @@
 
 .fa {
     padding: 20px;
-    font-size: 30px;
-    width: 30px;
-    height: 20px;
+    font-size: 20px;
+    width: 1px;
+    height: 10px;
     text-align: center;
     text-decoration: none;
     border-radius: 10px;
@@ -226,7 +187,6 @@ td, th {
     text-align: left;
     padding: 8px;
 }
-
 
 @media screen and (max-width: 600px) {
     .col-25, .col-75, input[type=submit] {
