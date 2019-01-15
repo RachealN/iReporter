@@ -17,10 +17,8 @@ body {
 }
  
 .here{
-    /* float: none; */
     width:50%;
     display:block;
-    /* background-color:rgba(4, 4, 4, 0.2); */
     background-color: teal;
     color:white; 
     height:300px;
