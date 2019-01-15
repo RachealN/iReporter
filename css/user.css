@@ -18,7 +18,7 @@ header {
 article {
     float: left;
     padding: 20px;
-    width: 70%;
+    width: 96%;
     background-color: #f1f1f1;
     height: 500px;
     border-radius: 10px;
@@ -113,16 +113,7 @@ article {
     display: none;
 }
 
-/* .card {
-    /* Add shadows to create the "card" effect */
-    /* box-shadow: 0 4px 8px 0 purple;
-    transition: 0.3s;
-} */
 
-/* On mouse-over, add a deeper shadow */
-/* .card:hover {
-    box-shadow: 0 8px 16px 0 purple;
-} */ */
 
 /* Add some padding inside the card container */
 .container {
